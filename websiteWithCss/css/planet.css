@@ -1,0 +1,57 @@
+/* * {
+  border: 1px dashed red; } */
+
+header {
+  background: #2a105300;
+  padding: 1rem;
+ 
+}
+header nav {
+  text-align: right; 
+}
+
+nav a {
+  color: #fff;
+  padding: 0 1rem;
+  font-family:sans-serif;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("/images/night.png");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+article {
+display: flex;
+
+}
+
+article img {
+  padding: 4rem;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  padding: 25px;
+  margin: 30px;
+  text-indent: 20px;
+  color: #fff;
+  font-size: 1rem;
+
+}
+
